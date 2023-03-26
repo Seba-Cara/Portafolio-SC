@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html >
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <title>Portafolio Sebastian Cara</title>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&amp;display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
@@ -10,12 +11,12 @@
         <link rel="stylesheet" href="validacion.js">
     </head>
 
-    <body>
+    <body class="container">
         <header>
             <div class="caja">
                 <h1>Sebastian Cara</h1>
                 <nav>
-                    <ul>
+                    <ul class="caja">
                         <li><a href="index.html">Sobre Mi</a></li>
                         <li><a href="Productos.html">Skills</a></li>
                         <li><a href="Productos.html">Hobbies</a></li>
@@ -28,16 +29,19 @@
         </header>
 
         <main>
-            <section>
-            
-                <img class="perfil" src="assets/foto-perfil.jpeg" alt="foto-perfil">
-                <p>Hola, mi nombre es Sebastian Cara y construyo paginas web</p>
-                <p>Actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
-                <p>
-                    <li>Linkedin</li>
-                    <li>GitHub</li>
-                    <li>Currículo</li>
-                </p>
+            <section class="redes">
+                <div class="imagen">
+                    <img class="perfil" src="assets/foto-perfil.jpeg" alt="foto-perfil">
+                </div>
+                <div class="perfil">
+                    <p class="saludo">Hola, mi nombre es Sebastian Cara y construyo paginas web</p>
+                    <p>Actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
+                    <p>
+                        <li>Linkedin</li>
+                        <li>GitHub</li>
+                        <li>Currículo</li>
+                    </p>
+                </div>
               
             </section>
             <section>                  
@@ -56,7 +60,7 @@
             </section>
             <section>
                 <div>
-                    <h2 class="">Skills</h2> 
+                    <h2 class="tarjetas">Skills</h2> 
                     <nav>
                         <ul>Hobbies</ul>
                         <ul>Formación</ul>

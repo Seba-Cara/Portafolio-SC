@@ -1,0 +1,36 @@
+.container{
+    background-color: beige;
+}
+
+.caja{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px;
+    gap: 50px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 208px;
+    }
+
+.imagen{
+    border-radius: 25%;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.saludo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+}
