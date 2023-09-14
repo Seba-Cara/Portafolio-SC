@@ -1,5 +1,6 @@
 .container{
-    background-color: beige;
+    
+    background-color: rgba(221, 223, 214, 0.934);
 }
 
 .translated-ltr{
@@ -25,7 +26,6 @@
     }
 
 .imagen{
-    border-radius: 25%;
     flex: none;
     order: 1;
     flex-grow: 0;
