@@ -2,6 +2,9 @@
     background-color: beige;
 }
 
+.translated-ltr{
+    display: flex;
+}
 .caja{
     display: flex;
     flex-direction: row;
@@ -9,6 +12,7 @@
     align-items: center;
     padding: 32px 0px;
     gap: 50px;
+    margin-bottom: 2px;
 }
 
 .redes{
@@ -33,4 +37,13 @@
     font-weight: 700;
     font-size: 52px;
     line-height: 61px;
+}
+.copyright{
+    text-align: center;
+    background: url(assets/bg.jpg);
+    padding: 40px;
+    color: #ffffff;
+    font-size: 28px;
+    margin: 0%;
+    width: 100%;
 }
