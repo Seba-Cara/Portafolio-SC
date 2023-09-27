@@ -1,6 +1,9 @@
+html{
+    width:fit-content;
+}
 .container{
-    
-    background-color: rgba(221, 223, 214, 0.934);
+    background: url(assets/texture-background-picture-image_923116.jpg);
+    width: 100%;
 }
 
 .caja{
@@ -45,8 +48,14 @@
 
 header{
     text-align: center;
-    background: url(assets/Globe_Laptops_481955.jpg);
     padding: 40px;
     width: auto;
     height:auto;
+}
+.copyright{
+    text-align: center;
+    font-size: 130%;
+    background: url(assets/bg.jpg);
+    color: aliceblue;
+    padding: 4%;
 }
