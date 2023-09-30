@@ -6,9 +6,6 @@ html{
     width: 100%;
 }
 
-.translated-ltr{
-    display: flex;
-}
 .caja{
     display: flex;
     flex-direction: row;
@@ -16,8 +13,7 @@ html{
     align-items: center;
     padding: 32px 0px;
     gap: 50px;
-    margin-bottom: 2px;
-}
+    }
 
 .redes{
     display: flex;
@@ -41,7 +37,16 @@ html{
     font-size: 52px;
     line-height: 61px;
 }
-.copyright{
+.perfil{
+    border-radius: 136px;
+}
+
+.marca{
+    font-size: 100px;
+    font-family: fantasy;
+}
+
+header{
     text-align: center;
     padding: 40px;
     width: auto;
